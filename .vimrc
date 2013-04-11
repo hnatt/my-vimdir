@@ -17,6 +17,6 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫІЕГМЦЧНЯ;ABCDEFGHIJKLM
 set title
 
 " Filetype-specific settings
-au FileType ruby setl sw=2 sts=2 et
+" au FileType ruby setl foldmethod=indent sw=2 sts=2 et
 autocmd FileType ruby setlocal foldmethod=syntax
 autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
