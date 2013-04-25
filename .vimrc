@@ -7,6 +7,10 @@ set ofu=syntaxcomplete#Complete
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+" temp directory
+set backupdir=~/.vim/tmp
+set directory=~/.vim/tmp
+
 set number
 set incsearch
 set hidden
@@ -15,6 +19,8 @@ set hidden
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫІЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSSTUVWXYZ,фисвуапршолдьтщзйкыіегмцчня;abcdefghijklmnopqrsstuvwxyz
 
 set title
+
+set scrolloff=3
 
 " Filetype-specific settings
 " au FileType ruby setl foldmethod=indent sw=2 sts=2 et
