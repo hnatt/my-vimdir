@@ -29,3 +29,5 @@ set scrolloff=3
 "autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 "setl foldmethod=indent sw=2 sts=2 et
 setl sw=2 sts=2 et
+
+autocmd vimenter * NERDTree
