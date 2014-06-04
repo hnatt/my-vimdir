@@ -30,4 +30,5 @@ set scrolloff=3
 "setl foldmethod=indent sw=2 sts=2 et
 setl sw=2 sts=2 et
 
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
+"autocmd vimenter * wincmd l
