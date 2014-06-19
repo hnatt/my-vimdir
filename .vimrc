@@ -49,3 +49,5 @@ let g:airline_enable_syntastic  = 1
 "let g:airline_branch_prefix     = '⭠'
 "let g:airline_readonly_symbol   = '⭤'
 "let g:airline_linecolumn_prefix = '⭡'
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
