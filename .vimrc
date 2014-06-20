@@ -65,3 +65,9 @@ inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
 inoremap <C-t>     <Esc>:tabnew<CR>
 set showtabline=2
+
+""""""""""""""""""""""""""""""
+" gitgutter
+""""""""""""""""""""""""""""""
+set updatetime=100
+
