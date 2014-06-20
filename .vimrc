@@ -50,4 +50,18 @@ let g:airline_enable_syntastic  = 1
 "let g:airline_readonly_symbol   = '⭤'
 "let g:airline_linecolumn_prefix = '⭡'
 
+""""""""""""""""""""""""""""""
+" CtrlP
+""""""""""""""""""""""""""""""
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+""""""""""""""""""""""""""""""
+" Tab line
+""""""""""""""""""""""""""""""
+nnoremap <C-S-tab> :tabprevious<CR>
+nnoremap <C-tab>   :tabnext<CR>
+nnoremap <C-t>     :tabnew<CR>
+inoremap <C-S-tab> <Esc>:tabprevious<CR>i
+inoremap <C-tab>   <Esc>:tabnext<CR>i
+inoremap <C-t>     <Esc>:tabnew<CR>
+set showtabline=2
