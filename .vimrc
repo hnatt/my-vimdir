@@ -30,6 +30,8 @@ set scrolloff=3
 "setl foldmethod=indent sw=2 sts=2 et
 setl sw=2 sts=2 et
 
+autocmd BufWritePre *.rb :%s/\s\+$//e
+
 "autocmd vimenter * NERDTree
 "autocmd vimenter * wincmd l
 
@@ -58,12 +60,12 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 """"""""""""""""""""""""""""""
 " Tab line
 """"""""""""""""""""""""""""""
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
+nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-l> :tabnext<CR>
+nnoremap <C-t> :tabnew<CR>
+inoremap <C-S-h> <Esc>:tabprevious<CR>i
+inoremap <C-l>   <Esc>:tabnext<CR>i
+inoremap <C-t>   <Esc>:tabnew<CR>
 set showtabline=2
 
 """"""""""""""""""""""""""""""
