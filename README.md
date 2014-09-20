@@ -1,1 +1,0 @@
-My `~/.vim` directory. Most likely, you'll make no use of it, but as long Github doesn't have free private repositories, it's here on public. I recommend you to compile your own config and plugins bundle with Tim Pope's [vim-pathogen](https://github.com/tpope/vim-pathogen).
