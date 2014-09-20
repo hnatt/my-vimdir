@@ -29,3 +29,5 @@ autocmd BufWritePre *.rb :%s/\s\+$//e
 
 " gitgutter
 set updatetime=10
+
+set ttyfast
