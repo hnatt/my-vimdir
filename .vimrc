@@ -24,6 +24,7 @@ set scrolloff=3
 
 setl sw=2 sts=2 et
 
+" Delete trailing spaces in Ruby files on write
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
 " gitgutter
