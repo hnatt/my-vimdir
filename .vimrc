@@ -25,3 +25,6 @@ set scrolloff=3
 setl sw=2 sts=2 et
 
 autocmd BufWritePre *.rb :%s/\s\+$//e
+
+" gitgutter
+set updatetime=10
