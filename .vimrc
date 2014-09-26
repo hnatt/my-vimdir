@@ -2,6 +2,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set ofu=syntaxcomplete#Complete
+set nocompatible
+set term=xterm-256-color
 
 " Tabs navigation
 nnoremap <C-Left> :tabprevious<CR>
