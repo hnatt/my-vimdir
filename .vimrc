@@ -51,3 +51,6 @@ set showtabline=2
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_auto_select = 1
+
+" ctrlp
+set wildignore+=*/tmp/*,*/public/spree/*
