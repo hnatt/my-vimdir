@@ -53,4 +53,7 @@ let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_auto_select = 1
 
 " ctrlp
-set wildignore+=*/tmp/*,*/public/spree/*
+set wildignore+=*/tmp/*,*/public/*
+
+" Disable beeping
+set noeb vb t_vb=
