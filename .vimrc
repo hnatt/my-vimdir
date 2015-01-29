@@ -8,7 +8,7 @@ set number
 set incsearch
 set hidden
 set title
-noremap <F5> :redraw!<CR>
+noremap <F5> :redraw!<CR>:GitGutter<CR>
 
 " Tabs navigation
 nnoremap <C-Left> :tabprevious<CR>
