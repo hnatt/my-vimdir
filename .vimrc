@@ -56,3 +56,6 @@ set wildignore+=*/tmp/*,*/public/*
 
 " Disable beeping
 set noeb vb t_vb=
+
+" visual autocomplete for command menu
+set wildmenu
