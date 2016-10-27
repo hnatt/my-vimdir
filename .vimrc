@@ -9,6 +9,7 @@ set incsearch
 set hidden
 set title
 noremap <F5> :redraw!<CR>:GitGutter<CR>
+set textwidth=100
 
 " Tabs navigation
 nnoremap <C-Left> :tabprevious<CR>
