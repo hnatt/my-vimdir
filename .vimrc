@@ -28,7 +28,7 @@ set scrolloff=3
 set sw=2 sts=2 et
 
 " Delete trailing spaces on write
-autocmd BufWritePre *.rb,*.rake,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile :%s/\s\+$//e
+autocmd BufWritePre *.rb,*.rake,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile,*.slim,*.ejs,*.erb :%s/\s\+$//e
 
 " gitgutter
 set updatetime=500
