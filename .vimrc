@@ -54,7 +54,7 @@ let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_auto_select = 1
 
 " ctrlp
-set wildignore+=*/tmp/*,*/public/*,*/node_modules/*
+set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*
 
 " Disable beeping
 set noeb vb t_vb=
