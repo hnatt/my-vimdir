@@ -18,10 +18,10 @@
 	url = https://github.com/godlygeek/tabular
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
-	url = https://github.com/bling/vim-airline
+	url = https://github.com/vim-airline/vim-airline
 [submodule "bundle/vim-airline-plugins"]
 	path = bundle/vim-airline-plugins
-	url = https://github.com/bling/vim-airline-plugins
+	url = https://github.com/vim-airline/vim-airline-plugins
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler
@@ -55,3 +55,6 @@
 [submodule "bundle/bufexplorer.zip"]
 	path = bundle/bufexplorer.zip
 	url = https://github.com/vim-scripts/bufexplorer.zip
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
