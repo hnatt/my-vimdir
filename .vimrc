@@ -10,7 +10,7 @@ set incsearch
 set hidden
 set title
 noremap <F5> :redraw!<CR>:GitGutter<CR>
-set textwidth=100
+set textwidth=80
 set formatoptions-=t
 
 " Tabs navigation
@@ -29,7 +29,7 @@ set scrolloff=3
 set sw=2 sts=2 et
 
 " Delete trailing spaces on write
-autocmd BufWritePre *.rb,*.rake,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile,*.slim,*.haml,*.ejs,*.erb :%s/\s\+$//e
+autocmd BufWritePre *.rb,*.ts,*.rake,*.html,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile,Dockerfile,*.slim,*.haml,*.ejs,*.erb :%s/\s\+$//e
 
 " gitgutter
 set updatetime=500
