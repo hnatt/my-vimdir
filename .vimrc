@@ -13,6 +13,9 @@ noremap <F5> :redraw!<CR>:GitGutter<CR>
 set textwidth=80
 set formatoptions-=t
 
+" git ctags hook
+set tags=.git/tags
+
 " Tabs navigation
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
