@@ -12,6 +12,7 @@ set title
 noremap <F5> :redraw!<CR>:GitGutter<CR>
 set textwidth=80
 set formatoptions-=t
+set breakindent
 
 " git ctags hook
 set tags=.git/tags
