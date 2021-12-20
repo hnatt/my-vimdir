@@ -54,9 +54,8 @@ inoremap <C-l> <Esc>:tabnext<CR>i
 inoremap <C-t> <Esc>:tabnew<CR>
 set showtabline=2
 
-" neocomplcache
-let g:neocomplcache_enable_at_startup = 1
-let g:neocomplcache_enable_auto_select = 1
+" deoplete
+let g:deoplete#enable_at_startup = 1
 
 " ctrlp
 set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*
