@@ -58,7 +58,7 @@ set showtabline=2
 let g:deoplete#enable_at_startup = 1
 
 " ctrlp
-set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*
+set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*,app/assets/builds
 let g:ctrlp_max_files=100000
 let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn)|(node_modules|public|log))$'
 
