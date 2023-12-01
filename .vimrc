@@ -33,7 +33,7 @@ set scrolloff=3
 set sw=2 sts=2 et
 
 " Delete trailing spaces on write
-autocmd BufWritePre *.rb,*.ts,*.rake,*.html,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile,Dockerfile,*.slim,*.haml,*.ejs,*.erb :%s/\s\+$//e
+autocmd BufWritePre *.rb,*.ts,*.rake,*.html,*.js,*.erb,*.coffee,*.yml,*.css,*.sass,*.scss,Gemfile,Dockerfile,*.slim,*.haml,*.ejs,*.erb,*.py :%s/\s\+$//e
 
 " gitgutter
 set updatetime=500
@@ -58,7 +58,7 @@ set showtabline=2
 let g:deoplete#enable_at_startup = 1
 
 " ctrlp
-set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*,app/assets/builds
+set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*,app/assets/builds,*/__pycache__/*
 let g:ctrlp_max_files=100000
 let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn)|(node_modules|public|log))$'
 
@@ -67,3 +67,6 @@ set noeb vb t_vb=
 
 " visual autocomplete for command menu
 set wildmenu
+
+" JS settings
+autocmd FileType javascript,js,ts,typescript setlocal shiftwidth=4 tabstop=4
