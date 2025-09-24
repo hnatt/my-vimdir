@@ -1,7 +1,6 @@
 set encoding=utf-8
 execute pathogen#infect()
 syntax on
-filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 set nocompatible
 set term=xterm-256color
@@ -47,10 +46,14 @@ let g:airline#extensions#syntastic#enabled = 1
 
 " tab line
 nnoremap <C-h> :tabprevious<CR>
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k> :tabnext<CR>
 nnoremap <C-l> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
 inoremap <C-S-h> <Esc>:tabprevious<CR>i
+inoremap <C-S-j> <Esc>:tabprevious<CR>i
 inoremap <C-l> <Esc>:tabnext<CR>i
+inoremap <C-k> <Esc>:tabnext<CR>i
 inoremap <C-t> <Esc>:tabnew<CR>
 set showtabline=2
 
@@ -58,7 +61,7 @@ set showtabline=2
 let g:deoplete#enable_at_startup = 1
 
 " ctrlp
-set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*,app/assets/builds,*/__pycache__/*
+set wildignore+=*/tmp/*,*/public/*,*/node_modules/*,sites/default/files/*,app/assets/builds,*/__pycache__/*,*/dist/*
 let g:ctrlp_max_files=100000
 let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn)|(node_modules|public|log))$'
 
@@ -68,5 +71,5 @@ set noeb vb t_vb=
 " visual autocomplete for command menu
 set wildmenu
 
-" JS settings
-autocmd FileType javascript,js,ts,typescript setlocal shiftwidth=4 tabstop=4
+filetype plugin indent on
+set autoindent
